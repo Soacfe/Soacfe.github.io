@@ -1,32 +1,25 @@
 # The Site Configuration
+# --------------------------
 
-# Import the theme
-theme: jekyll-theme-chirpy
+# 언어 설정 (한국어)
+lang: ko-KR
 
-# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
-# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
-# otherwise, the layout language will use the default value of 'en'.
-lang: en
+# 시간대 설정 (서울)
+timezone: Asia/Seoul
 
-# Change to your timezone › https://zones.arilyn.cc
-timezone: Asia/Shanghai
+# 블로그 정보 설정
+title: "Soacfe의 VR 개발 일지"
+tagline: "VR 개발자를 향한 기록"
+description: "가상현실 기술과 프로젝트를 기록하는 블로그입니다."
 
-# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
-# ↓ --------------------------
-
-title: Soacfe's Blog # the main title
-
-tagline: A text-focused Jekyll theme # it will display as the subtitle
-
-description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
-
-# Fill in the protocol & hostname for your site.
-# E.g. 'https://username.github.io', note that it does not end with a '/'.
+# 가장 중요한 주소 설정 (따옴표 필수!)
 url: "https://soacfe.github.io"
 
+# 깃허브 계정 이름 (정확히 입력해야 링크가 동작합니다)
 github:
-  username: github_username # change to your GitHub username
+  username: Soacfe
+
+# --------------------------
 
 twitter:
   username: twitter_username # change to your Twitter username
