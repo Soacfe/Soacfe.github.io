@@ -218,3 +218,11 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+# 플러그인 설정 (이게 없으면 include_cached 에러가 납니다)
+plugins:
+  - jekyll-paginate
+  - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-sitemap
